@@ -12,6 +12,9 @@ public class Task {
 		driver.get("https://www.google.com/");
 		WebElement txtGreens = driver.findElement(By.name("q"));
 		txtGreens.sendKeys("GreensTechnology");
+		driver.quit();
+		driver.close();
+		
 		
 		
 	}
